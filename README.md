@@ -1,5 +1,7 @@
 # hugo-docker
 
+[![Docker Repository on Quay](https://quay.io/repository/arschles/hugo/status "Docker Repository on Quay")](https://quay.io/repository/arschles/hugo)
+
 Hugo in an [alpine:3.2](https://hub.docker.com/r/library/alpine/) Docker container.
 
 The `hugo` binary lives in `/bin/hugo` and the default `CMD` is set to Hugo, so to generate a site, run this:
